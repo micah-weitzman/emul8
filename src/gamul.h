@@ -9,7 +9,8 @@ typedef struct gamul8 {
 	unsigned char display[SCREEN_WIDTH][SCREEN_HEIGHT];
 } gamul8;
 
-extern void display_func(gamul8 *gamer);
+extern void display_func(struct state *st, gamul8 *gamer, 
+	unsigned char x, unsigned char y, unsigned char n); 
 
 extern unsigned short get_opt(struct state *st);
 

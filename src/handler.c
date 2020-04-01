@@ -1,4 +1,5 @@
 #include "state.h"
+#include "gamul.h"
 
 void zero_h(struct state *st, unsigned short opcode) {
     printf("[handler] 0 called \n"); 
@@ -66,27 +67,27 @@ void seven_h(struct state *st, unsigned short opcode) {
 
 void eight_h(struct state *st, unsigned short opcode) {
     printf("[handler] 8 called \n"); 
-    switch (opcode & 0x00F) {
+    switch (opcode & 0x000F) {
         case 0:
-            st->reg[(opcode & 0xF00)] = st->reg[(opcode & 0x0F0)]; 
+            st->reg[(opcode << 8)& 0xF] = st->reg[(opcode << 4) & 0x000F]; 
         case 1: 
-            st->reg[(opcode & 0xF00)] = st->reg[(opcode & 0xF00)] | st->reg[(opcode & 0x0F0)]; 
+            st->reg[(opcode << 8)& 0xF] = st->reg[((opcode << 8)& 0xF)] | st->reg[(opcode << 4) & 0x0F]; 
         case 2: 
-            st->reg[(opcode & 0xF00)] = st->reg[(opcode & 0xF00)] & st->reg[(opcode & 0x0F0)]; 
+            st->reg[(opcode << 8)& 0xF] = st->reg[((opcode << 8)& 0xF)] & st->reg[(opcode << 4) & 0x0F]; 
         case 3: 
-             st->reg[(opcode & 0xF00)] = st->reg[(opcode & 0xF00)] ^ st->reg[(opcode & 0x0F0)]; 
+             st->reg[(opcode << 8)& 0xF] = st->reg[((opcode << 8)& 0xF)] ^ st->reg[(opcode << 4) & 0x0F]; 
         case 4: 
              // TODO 
         case 5: 
              // TODO
         case 6: 
-             st->reg[0xF] = st->reg[(opcode &0xF00)] & 0x00F; 
-             st->reg[(opcode & 0xF00)] = st->reg[(opcode & 0xF00)] >> 1;
+             st->reg[0xF] = st->reg[(opcode << 8)& 0xF] & 0xF; 
+             st->reg[(opcode << 8)& 0xF] = st->reg[(opcode << 8)& 0xF] >> 1;
         case 7:
             // TODO
         case 0xE:
-             st->reg[0xF] = st->reg[(opcode &0xF00)] & 0xF00;
-             st->reg[(opcode & 0xF00)] = st->reg[(opcode & 0xF00)] << 1;
+             st->reg[0xF] = (st->reg[(opcode << 8)& 0xF] << 8) & 0xF;
+             st->reg[(opcode << 8)& 0xF] = st->reg[(opcode << 8)& 0xF] << 1;
     }
 }
 
@@ -121,14 +122,22 @@ void b_h(struct state *st, unsigned short opcode) {
 void c_h(struct state *st, unsigned short opcode) {
     //printf("[handler] C called \n"); 
     int num = rand() % (254); 
-    //printf("RAND NUM: %i\n", num);
-    st->reg[(opcode & 0xF00)] = (opcode & 0xFF) & num; // & rand num
+    printf("RAND NUM: %i\n", num);
+    st->reg[(opcode >> 8) & 0xF] = (opcode & 0xFF) & num; // & rand num
         
 }
 
+
+// DXYN - draws using I reg, at location (rgstr X, rgstr Y) 8 wide and N tall
 void d_h(struct state *st, unsigned short opcode) {
-    printf("[handler] D called \n"); 
-    // TODO DRAW FUNCTION ???
+    //printf("[handler] D called \n"); 
+    unsigned char x = st->reg[(opcode >> 8) & 0xF]; 
+    unsigned char y = st->reg[(opcode >> 4) & 0xF];
+    unsigned char n = opcode & 0xF;
+
+    printf("(x = %i, y = %i )\n", x, y);
+    // go to emul8.c -> gamul.c
+    disp_f(x, y, n); 
 }
 
 void e_h(struct state *st, unsigned short opcode) {

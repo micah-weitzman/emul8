@@ -64,10 +64,27 @@ int load_file(char *file_name, unsigned char *buffer)
  *  gamer: architecture to be emulated, defined in gamul.h
  *	RETURNS: none
  */
-void display_func(gamul8 *gamer)
-{
-	gamer->display[20][40] = 1;
-	gamer->display[10][30] = 0; 
+void display_func(struct state *st, gamul8 *gamer, 
+	unsigned char x, unsigned char y, unsigned char n) {
+	st->reg[0xF] = 0; 
+	for (int j = 0; j < n; j++) {
+	 // loop through x values
+		unsigned short pxl = st->mem[st->I + j];
+
+		for (int i = 0; i < 8; i ++) {
+
+			printf("pxl = %u\n", pxl); 
+			printf("pxl >> (7 - %i) = %u \n", i,(pxl >> (7 - i)) & 0x1); 
+		  // loop through height 
+			if (gamer->display[x+i][y+j] != 0)
+				if (gamer->display[x+i][y+j] == 1) {
+					st->reg[0xF] = 1;
+				}
+				if ((pxl >> (7 - i)) & 1) {
+					gamer->display[x+i][y+j] = gamer->display[x+i][y+j] ^ 1; 
+				} 
+			}
+	}
 }
 
 

@@ -71,6 +71,9 @@ void degbug() {
 //architecture we are emulating, refer gamul.h
 gamul8 gamer;
 
+
+
+
 // method to draw a single pixel on the screen
 void draw_square(float x_coord, float y_coord);
 
@@ -88,6 +91,7 @@ void your_key_press_handler(unsigned char key, int x, int y);
 
 // function to handle key release
 void your_key_release_handler(unsigned char key, int x, int y);
+
 
 
 /*	FUNCTION: main
@@ -210,8 +214,6 @@ void render()
 	glLoadIdentity();
 
 
-
-	//	display_func(&gamer);
     opt = get_opt(&st); 
     (*handler_ptr_array[(opt >> 12)])(&st, opt);     
     degbug(); 
@@ -309,4 +311,11 @@ void your_key_press_handler(unsigned char key, int x, int y)
 void your_key_release_handler(unsigned char key, int x, int y)
 {
 
+}
+
+
+
+// BAD FUNCTION THAT draws 
+void disp_f(unsigned char x, unsigned char y, unsigned char n) {
+	display_func(&st, &gamer, x, y, n); 
 }
