@@ -16,7 +16,7 @@ extern struct state {
 	unsigned char del;
 	unsigned char sound; 
 
-	unsigned char keys[16]; 
+	unsigned char* keys; 
 }; 
 
 #endif 

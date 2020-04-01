@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 #include "state.h"
 #include "gamul.h"
 
-
-#define SCALE 10 
 
 // font set for rendering
 const unsigned char fontset[FONTSET_SIZE] = {
@@ -28,7 +27,7 @@ const unsigned char fontset[FONTSET_SIZE] = {
 	0xF0, 0x80, 0xF0, 0x80, 0x80		// F
 };
 
-
+ 
 /*	FUNCTION: load_file
  *  -------------------
  *	Loads the given program/game
@@ -71,23 +70,56 @@ void display_func(struct state *st, gamul8 *gamer,
 	 // loop through x values
 		unsigned short pxl = st->mem[st->I + j];
 
-		for (int i = 0; i < 8; i ++) {
+		for (int i = 0; i < 8; i ++) {// loop through height 
 
-			printf("pxl = %u\n", pxl); 
-			printf("pxl >> (7 - %i) = %u \n", i,(pxl >> (7 - i)) & 0x1); 
-		  // loop through height 
-			if (gamer->display[x+i][y+j] != 0)
-				if (gamer->display[x+i][y+j] == 1) {
-					st->reg[0xF] = 1;
-				}
-				if ((pxl >> (7 - i)) & 1) {
-					gamer->display[x+i][y+j] = gamer->display[x+i][y+j] ^ 1; 
-				} 
+		//	printf("pxl = %u\n", pxl); 
+		//	printf("pxl >> (7 - %i) = %u \n", i,(pxl >> (7 - i)) & 0x1); 
+			
+
+			unsigned short x_loc = x+i;
+			unsigned short y_loc = y+j; 
+
+			if (x_loc >= SCREEN_WIDTH) {
+				x_loc -= SCREEN_WIDTH;
+			} 
+			if (y_loc >= SCREEN_HEIGHT) {
+				y_loc -= SCREEN_HEIGHT; 
 			}
+
+		//	printf("x_loc: %u\n", x_loc); 
+		//	printf("y_loc: %u\n", y_loc); 
+
+			unsigned char old_px = gamer->display[x_loc][y_loc]; 
+			//unsigned char old_px = *(gamer->display + location); 
+			if ((pxl >> (7 - i)) & 1) {
+				
+				gamer->display[x_loc][y_loc] = old_px ^ 1; 
+			}
+
+			if ((old_px == 1) && (gamer->display[x_loc][y_loc] == 0)) {
+				st->reg[0xF] = 1; 
+			}
+		}
 	}
 }
 
 
+
+void sound_hanlder(struct state *st) {
+	if (st->sound > 0) {
+		system("cd .."); 
+		system("paplay beep.aiff &> /dev/null &"); 
+		st->sound--; 
+	}
+}
+
+void delay_handler(struct state *st) {
+	if (st->del > 0) {
+		//clock_t start_time = clock(); 
+		//while (clock() <= start_time + MILI_SEC) {;;}
+		st->del--; 
+	}
+}
 
 /*	FUNCTION: get_opt
  *	-----------------

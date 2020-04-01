@@ -28,24 +28,38 @@
 
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 320
+ 
 
-
-// MEMORY arrary 
-unsigned char memory[4096];
-unsigned short registers[16]; 
-unsigned short stack[16]; 
+// MEMORY arrarys
+unsigned char memory[4096] = {0};
+unsigned short registers[16] = {0};
+unsigned short stack[16] = {0};
+unsigned char keys[16] = {0};
 
 // struct that hold all of the memory stuff 
  struct state st;
 
 static void init_state() {
+	// store font starting at memory addr 0 
+	memcpy(memory, fontset, FONTSET_SIZE + 1); 
+
+	// 4k memory location 
     st.mem = memory; 
 	st.pc = 0x200; 
 
+	// stack 
     st.stack = stack; 
-    st.sp = &st.stack; 
+    st.sp = 0; 
 
+    // general purpose registers 
     st.reg = registers; 
+
+    // delay and sound registers 
+    st.del = 0; 
+	st.sound = 0;
+
+	// keys pressed
+	st.keys = keys; 
 }
 
 // current optcode; 
@@ -55,21 +69,30 @@ unsigned short opt;
 
 
 void degbug() {
-	printf("----------------------------\n");
-	printf("-------    DEBUGG    -------\n");
-	printf("----------------------------\n"); 
-	printf("OPCODE: %X\n", opt);
-	printf("I : %X\n", st.I); 
-	printf("Program Counter: %X\n", st.pc);
-	for (int i = 0; i < 16; i++) {
-		printf("[Reg%X] %d \n", i, *(st.reg + i)); 
-	}
-	printf("----------------------------\n");
+	// printf("----------------------------\n");
+	// printf("-------    DEBUGG    -------\n");
+	// printf("----------------------------\n"); 
+	// printf("OPCODE: %X\n", opt);
+	// printf("I : [0x%X (%u)] = %u\n", st.I, st.I, st.mem[st.I]); 
+	// printf("Program Counter: %X\n", st.pc);
+	// for (int i = 0; i < 16; i++) {
+	// 	printf("[Reg%X] %d \n", i, *(st.reg + i)); 
+	// }
+	// if (st.sp > 0 ) {
+	// 	printf("--- STACK ---\n");
+	// 	for (int j = 0; j < st.sp; j++) {
+	// 		printf("[Stack %i] %u \n", j, st.stack[j]); 
+	// 	}
+	// 	printf("- - - - - -\n");
+	// }
+	// printf("Sound: %u\n", st.sound);
+	// printf("Delay: %u\n", st.del);
+	// printf("----------------------------\n");
 }
 
 
 //architecture we are emulating, refer gamul.h
-gamul8 gamer;
+static gamul8 gamer;
 
 
 
@@ -213,12 +236,15 @@ void render()
 	
 	glLoadIdentity();
 
-
+	// get optcode and pass to optcode handler 
     opt = get_opt(&st); 
     (*handler_ptr_array[(opt >> 12)])(&st, opt);     
+    // Debugging function 
     degbug(); 
 
-
+    // handlers for delay and sound
+    sound_hanlder(&st); 
+    delay_handler(&st); 
 
 
 	// draw a pixel for each display bit
@@ -290,6 +316,56 @@ void initGL()
  */
 void your_key_press_handler(unsigned char key, int x, int y)
 {
+	switch (key) {
+		case '1':
+			st.keys[1] = 1; 
+			break;
+		case '2':
+			st.keys[2] = 1; 
+			break;
+		case '3':
+			st.keys[3] = 1;  
+			break;
+		case '4':
+			st.keys[0xC] = 1; 
+			break;
+		case 'q':
+			st.keys[4] = 1; 
+			break;
+		case 'w':
+			st.keys[5] = 1; 
+			break;
+		case 'e':
+			st.keys[6] = 1; 
+			break;
+		case 'r':
+			st.keys[0xD] = 1; 
+			break;
+		case 'a':
+			st.keys[7] = 1; 
+			break;
+		case 's':
+			st.keys[8] = 1;
+			break; 
+		case 'd':
+			st.keys[9] = 1;
+			break; 
+		case 'f':
+			st.keys[0xE] = 1; 
+			break;
+		case 'z':
+			st.keys[0xA] = 1; 
+			break;
+		case 'x':
+			st.keys[0] = 1; 
+			break;
+		case 'c':
+			st.keys[0xB] = 1; 
+			break;
+		case 'v':
+			st.keys[0xF] = 1; 
+			break;
+	}
 
 }
 
@@ -310,12 +386,72 @@ void your_key_press_handler(unsigned char key, int x, int y)
  */
 void your_key_release_handler(unsigned char key, int x, int y)
 {
+	switch (key) {
+		case '1':
+			st.keys[1] = 0;
+			break;
+		case '2':
+			st.keys[2] = 0;
+			break;
+		case '3':
+			st.keys[3] = 0;
+			break;
+		case '4':
+			st.keys[0xC] = 0;
+			break;
+		case 'q':
+			st.keys[4] = 0;
+			break; 
+		case 'w':
+			st.keys[5] = 0;
+			break;
+		case 'e':
+			st.keys[6] = 0;
+			break;
+		case 'r':
+			st.keys[0xD] = 0;
+			break;
+		case 'a':
+			st.keys[7] = 0;
+			break;
+		case 's':
+			st.keys[8] = 0;
+			break; 
+		case 'd':
+			st.keys[9] = 0;
+			break; 
+		case 'f':
+			st.keys[0xE] = 0;
+			break;
+		case 'z':
+			st.keys[0xA] = 0;
+			break;
+		case 'x':
+			st.keys[0] =  0;
+			break;
+		case 'c':
+			st.keys[0xB] = 0; 
+			break;
+		case 'v':
+			st.keys[0xF] = 0;
+			break;
+	}
 
 }
 
 
 
 // BAD FUNCTION THAT draws 
-void disp_f(unsigned char x, unsigned char y, unsigned char n) {
-	display_func(&st, &gamer, x, y, n); 
+// If clr param == 0 , then clear the screen
+// Otherwise, draw as normal 
+void disp_f(unsigned char x, unsigned char y, unsigned char n, unsigned char clr) {
+	if (clr == 0) {
+		for (int i = 0; i < SCREEN_WIDTH; i++) {
+			for (int j = 0; j < SCREEN_HEIGHT; j++) {
+				gamer.display[i][j] = 0; 
+			}
+		}
+	} else {
+		display_func(&st, &gamer, x, y, n); 
+	}
 }
