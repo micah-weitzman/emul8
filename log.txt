@@ -1,0 +1,3734 @@
+-----------------------------
+----- FIRST 20 REGISTERS ----
+-----------------------------
+200 : 6245 
+202 : 6445 
+204 : 5240 
+206 : 1200 
+208 : 624F 
+20A : 5240 
+20C : 1200 
+20E : 0000 
+210 : 0000 
+212 : 0000 
+214 : 0000 
+216 : 0000 
+218 : 0000 
+21A : 0000 
+21C : 0000 
+21E : 0000 
+220 : 0000 
+222 : 0000 
+224 : 0000 
+226 : 0000 
+-----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 0 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 624F
+I : 0
+Program Counter: 20A
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 20C
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 1200
+I : 0
+Program Counter: 200
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 79 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6245
+I : 0
+Program Counter: 202
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 6445
+I : 0
+Program Counter: 204
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------
+[handler] 5 called 
+----------------------------
+-------    DEBUGG    -------
+----------------------------
+OPCODE: 5240
+I : 0
+Program Counter: 208
+[Reg0] 0 
+[Reg1] 0 
+[Reg2] 69 
+[Reg3] 0 
+[Reg4] 69 
+[Reg5] 0 
+[Reg6] 0 
+[Reg7] 0 
+[Reg8] 0 
+[Reg9] 0 
+[RegA] 0 
+[RegB] 0 
+[RegC] 0 
+[RegD] 0 
+[RegE] 0 
+[RegF] 0 
+----------------------------

@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "state.h"
 #include "gamul.h"
+
 
 #define SCALE 10 
 
@@ -69,3 +71,13 @@ void display_func(gamul8 *gamer)
 }
 
 
+
+/*	FUNCTION: get_opt
+ *	-----------------
+ *	
+ *	RETURNS: next optcode to decode 
+ */
+unsigned short get_opt(struct state *st) {
+    unsigned short opt = *(st->mem + st->pc++) << 8; 
+    return opt | *(st->mem + st->pc++); 
+}

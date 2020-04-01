@@ -20,3 +20,4 @@ clean:
 	rm obj/*
 	rm Executable
 	rm log.txt
+	mv TEST games/

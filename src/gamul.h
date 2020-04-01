@@ -11,23 +11,27 @@ typedef struct gamul8 {
 
 extern void display_func(gamul8 *gamer);
 
+extern unsigned short get_opt(struct state *st);
+
+
 #endif
 
 
-typedef struct {
+// typedef struct {
 
-	unsigned char* mem; // memory 
-	unsigned short pc; // program counter
+// 	unsigned char* mem; // memory 
+// 	unsigned short pc; // program counter
 
-	unsigned short* stack; 
-	unsigned short sp; // stack pointer
+// 	unsigned short* stack; 
+// 	unsigned short sp; // stack pointer
 
-	unsigned short I; // Index register
+// 	unsigned short I; // Index register
 
-    unsigned char* reg; 
+//     unsigned char* reg; 
 
-	unsigned char del;
-	unsigned char sound; 
+// 	unsigned char del;
+// 	unsigned char sound; 
 
-	unsigned char keys[16]; 
-} STATE; 
+// 	unsigned char keys[16]; 
+// } STATE; 
+//  

@@ -16,7 +16,7 @@
  * If you choose to use a different set of third party libraries,
  * please consult a TA.
  */
-
+ 
 #include <GL/glut.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,6 +24,7 @@
 #include "gamul.h"
 #include <string.h>
 #include "handler.h"
+#include "state.h"
 
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 320
@@ -32,32 +33,40 @@
 // MEMORY arrary 
 unsigned char memory[4096];
 unsigned short registers[16]; 
+unsigned short stack[16]; 
 
+// struct that hold all of the memory stuff 
+ struct state st;
 
-STATE st;
-STATE* st_ptr;
-
-void init_state() {
+static void init_state() {
     st.mem = memory; 
 	st.pc = 0x200; 
 
-    st.reg =registers; 
-
-    st.stack = (unsigned short*) malloc(2*16); 
-    
+    st.stack = stack; 
     st.sp = &st.stack; 
-    st_ptr = &st; 
+
+    st.reg = registers; 
 }
+
+// current optcode; 
+unsigned short opt; 
+
+
+
 
 void degbug() {
-	printf("Program Counter: %x\n", st.pc); 
-	// for(int i = 0; i < 16; i ++) {
-	// 	printf("Rgister[%i]: %u \n",i, *(st_ptr->reg + i)); 
-	// }
+	printf("----------------------------\n");
+	printf("-------    DEBUGG    -------\n");
+	printf("----------------------------\n"); 
+	printf("OPCODE: %X\n", opt);
+	printf("I : %X\n", st.I); 
+	printf("Program Counter: %X\n", st.pc);
+	for (int i = 0; i < 16; i++) {
+		printf("[Reg%X] %d \n", i, *(st.reg + i)); 
+	}
+	printf("----------------------------\n");
 }
 
-//get net optcode 
-unsigned short get_opt(); 
 
 //architecture we are emulating, refer gamul.h
 gamul8 gamer;
@@ -96,17 +105,27 @@ int main(int argc, char *argv[])
     init_state(); 
 
 	// Get input from user which game to play
-	char str[10] = " "; 
-	printf("Game to play?: \n");
-	scanf("%s", str); 
-
-	char dest[100] = "/home/vm/Desktop/emu_start_code/games/";
-
-	load_file(strcat(dest, str),  &st.mem[0x200]); 
-	for (int i = 0; i < 40; i+=2) {
-		printf("%d : %x%x \n", i, st.mem[st.pc + i], st.mem[st.pc+i+1]); 
+	char dest[100] = "./games/";
+	
+	char str[100] = " "; 
+	if (argc != 2) {
+		printf("Game to play?: \n");
+		scanf("%s", str);
+		load_file(strcat(dest, str),  &st.mem[0x200]); 
+	} else {
+		load_file(strcat(dest, argv[1]),  &st.mem[0x200]); 
 	}
 
+
+	// DEBUG: print out first 20 register values 
+	int l = 20;
+	printf("-----------------------------\n");
+	printf("----- FIRST %d REGISTERS ----\n", l);
+	printf("-----------------------------\n");
+	for (int i = 0; i < l*2; i+=2) {
+		printf("%X : %2.2X%2.2X \n", st.pc + i, st.mem[st.pc + i], st.mem[st.pc+i+1]); 
+	}
+	printf("-----------------------------\n");
 
 
 
@@ -192,10 +211,9 @@ void render()
 
 
 
-//	display_func(&gamer);
-    unsigned short opt = get_opt(); 
-    (*handler_ptr_array[opt & 0xF00])(st_ptr, opt);     
-    printf("OPCODE: %x\n", opt);
+	//	display_func(&gamer);
+    opt = get_opt(&st); 
+    (*handler_ptr_array[(opt >> 12)])(&st, opt);     
     degbug(); 
 
 
@@ -291,9 +309,4 @@ void your_key_press_handler(unsigned char key, int x, int y)
 void your_key_release_handler(unsigned char key, int x, int y)
 {
 
-}
-
-unsigned short get_opt() {
-    unsigned short opt = *(st.mem + st.pc++) << 8; 
-    return opt | *(st.mem + st.pc++); 
 }
