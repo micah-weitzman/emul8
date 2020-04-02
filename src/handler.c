@@ -202,13 +202,13 @@ void e_h(struct state *st, unsigned short opcode) {
     unsigned short k = st->reg[(opcode >> 8) & 0xF];
     switch (opcode & 0xFF) {
         case 0x9E: // EX9E - skips next instr if key in rgstr X is pressed
-            if(st->keys[k] == 1) {
+            if(st->keys[k & 0xF] == 1) {
                 st->pc += 2; 
             }
             break; 
 
-        case 0xA1: // skips next instr if key in rgstr X is not pressed
-            if(st->keys[k] != 1) {
+        case 0xA1: // EXA1 skips next instr if key in rgstr X is not pressed
+            if(st->keys[k & 0xF] == 0) {
                 st->pc += 2; 
             }
             break; 
@@ -218,7 +218,7 @@ void e_h(struct state *st, unsigned short opcode) {
 void f_h(struct state *st, unsigned short opcode) {
  //   printf("[handler] F called \n"); 
     unsigned short x; 
-    unsigned char c; 
+    unsigned char c =  0; 
      switch (opcode & 0xFF) {
         case 0x07:
             // FX07, set rgstr X to value of delay timer
@@ -226,7 +226,13 @@ void f_h(struct state *st, unsigned short opcode) {
             break; 
         case 0x0A:
             // FX0A, wait for keypress and store in rgstr X 
-            c = getchar(); 
+            while (x != 1) {
+                for(c; c < 0xF; c++) {
+                    if (st->keys[c] == 1) {
+                        x = 1;
+                    }
+                }
+            }
             st->reg[(opcode >> 8) & 0xF] = c; 
             break; 
         case 0x15:

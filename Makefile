@@ -16,8 +16,12 @@ obj/%.o : $(SRC_DIR)/%.c
 	$(COMP) $(FLAGS) -c $^ -o $@
 
 
-clean: 
+clean:
 	rm obj/*
 	rm Executable
+ifneq ("$(wildcard log.txt)", "")
 	rm log.txt
+endif 
+ifneq ("$(wildcard TEST)", "")
 	mv TEST games/
+endif 

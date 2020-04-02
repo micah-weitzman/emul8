@@ -5,6 +5,7 @@
 #include <time.h>
 #include "state.h"
 #include "gamul.h"
+#include "errors.h"
 
 
 // font set for rendering
@@ -32,8 +33,8 @@ const unsigned char fontset[FONTSET_SIZE] = {
  *  -------------------
  *	Loads the given program/game
  *	PARAMETERS: 
- *  file_name: name of file to be loaded
- *  buffer: system memory which will hold program
+ *  	file_name: name of file to be loaded
+ *  	buffer: system memory which will hold program
  *	RETURNS: 0 if successful, -1 if file error
  */
 int load_file(char *file_name, unsigned char *buffer)
@@ -49,6 +50,7 @@ int load_file(char *file_name, unsigned char *buffer)
 	file_size = ftell(file);	//man 3 ftell
 
 	rewind(file);				//man 3 rewind
+	file_too_big_err(file_size); 
 	
 	fread(buffer, 1, file_size, file);	//man 3 fread
 	return 0;
@@ -60,7 +62,11 @@ int load_file(char *file_name, unsigned char *buffer)
  *  ----------------------
  *	Sample function that displays a pixel on the screen
  *	PARAMETERS: 
- *  gamer: architecture to be emulated, defined in gamul.h
+ *		*st: pointer to memory
+ 		*gamer: display array
+ 		x: x position to draw
+ 		y: y poistion to draw 
+ 		n: height of 8*n block to draw 
  *	RETURNS: none
  */
 void display_func(struct state *st, gamul8 *gamer, 
@@ -104,7 +110,13 @@ void display_func(struct state *st, gamul8 *gamer,
 }
 
 
-
+/*	FUNCTION: sound_handler
+ *  ----------------------
+ *	Function that plays sound if sound flag is set, and decreases by 1
+ *	PARAMETERS: 
+ *		*st: pointer to memory
+ *	RETURNS: none
+ */
 void sound_hanlder(struct state *st) {
 	if (st->sound > 0) {
 		system("cd .."); 
@@ -113,6 +125,13 @@ void sound_hanlder(struct state *st) {
 	}
 }
 
+/*	FUNCTION: delay_handler
+ *  ----------------------
+ *	Function that decreases delay flag by 1 if set 
+ *	PARAMETERS: 
+ *		*st: pointer to memory
+ *	RETURNS: none
+ */
 void delay_handler(struct state *st) {
 	if (st->del > 0) {
 		//clock_t start_time = clock(); 
@@ -122,9 +141,12 @@ void delay_handler(struct state *st) {
 }
 
 /*	FUNCTION: get_opt
- *	-----------------
- *	
- *	RETURNS: next optcode to decode 
+ *  ----------------------
+ *	Find the next XXXX optcode pointed to by the Program Counter
+ * 		and increases program counter by 2 
+ *	PARAMETERS: 
+ *		*st: pointer to memory
+ *	RETURNS: optcode pointed to by Program Counter 
  */
 unsigned short get_opt(struct state *st) {
     unsigned short opt = *(st->mem + st->pc++) << 8; 

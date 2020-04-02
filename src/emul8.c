@@ -25,6 +25,7 @@
 #include <string.h>
 #include "handler.h"
 #include "state.h"
+#include "errors.h"
 
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 320
@@ -35,9 +36,12 @@ unsigned char memory[4096] = {0};
 unsigned short registers[16] = {0};
 unsigned short stack[16] = {0};
 unsigned char keys[16] = {0};
+// current optcode; 
+unsigned short opt; 
+
 
 // struct that hold all of the memory stuff 
- struct state st;
+struct state st;
 
 static void init_state() {
 	// store font starting at memory addr 0 
@@ -62,32 +66,34 @@ static void init_state() {
 	st.keys = keys; 
 }
 
-// current optcode; 
-unsigned short opt; 
 
 
-
-
-void degbug() {
-	// printf("----------------------------\n");
-	// printf("-------    DEBUGG    -------\n");
-	// printf("----------------------------\n"); 
-	// printf("OPCODE: %X\n", opt);
-	// printf("I : [0x%X (%u)] = %u\n", st.I, st.I, st.mem[st.I]); 
-	// printf("Program Counter: %X\n", st.pc);
-	// for (int i = 0; i < 16; i++) {
-	// 	printf("[Reg%X] %d \n", i, *(st.reg + i)); 
-	// }
-	// if (st.sp > 0 ) {
-	// 	printf("--- STACK ---\n");
-	// 	for (int j = 0; j < st.sp; j++) {
-	// 		printf("[Stack %i] %u \n", j, st.stack[j]); 
-	// 	}
-	// 	printf("- - - - - -\n");
-	// }
-	// printf("Sound: %u\n", st.sound);
-	// printf("Delay: %u\n", st.del);
-	// printf("----------------------------\n");
+void degbug(int io) {
+	if (io == 1) {
+		printf("----------------------------\n");
+		printf("-------    DEBUG    --------\n");
+		printf("----------------------------\n"); 
+		printf("OPCODE: %X\n", opt);
+		printf("I : [0x%X (%u)] = %u\n", st.I, st.I, st.mem[st.I]); 
+		printf("Program Counter: %X\n", st.pc);
+		for (int i = 0; i < 16; i++) {
+			printf("[Reg%X] %d \n", i, *(st.reg + i)); 
+		}
+		if (st.sp > 0 ) {
+			printf("--- STACK ---\n");
+			for (int j = 0; j < st.sp; j++) {
+				printf("[Stack %i] %u \n", j, st.stack[j]); 
+			}
+			printf("- - - - - -\n");
+		}
+		printf("Sound: %u\n", st.sound);
+		printf("Delay: %u\n", st.del);
+		printf("----------------------------\n");
+		printf("KEYS\n");
+		for(int i = 0; i < 16; i++) {
+			printf("[key %X] %i\n", i, st.keys[i]);
+		}
+	}
 }
 
 
@@ -131,7 +137,7 @@ int main(int argc, char *argv[])
 {
     init_state(); 
 
-	// Get input from user which game to play
+	// Get input from user which game to play and loads in to memory 
 	char dest[100] = "./games/";
 	
 	char str[100] = " "; 
@@ -168,7 +174,7 @@ int main(int argc, char *argv[])
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
 	glutInitWindowPosition(100, 100);
 	glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-	glutCreateWindow("ESE 519 - Gamul8r");
+	glutCreateWindow("ESE 350 - Gamul8r");
 
 	// initialize orthographic 2D view, among other things
 	initGL();
@@ -238,9 +244,10 @@ void render()
 
 	// get optcode and pass to optcode handler 
     opt = get_opt(&st); 
+    valid_opcode_err(opt); 
     (*handler_ptr_array[(opt >> 12)])(&st, opt);     
     // Debugging function 
-    degbug(); 
+    degbug(0); 
 
     // handlers for delay and sound
     sound_hanlder(&st); 
