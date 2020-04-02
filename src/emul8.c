@@ -151,14 +151,14 @@ int main(int argc, char *argv[])
 
 
 	// DEBUG: print out first 20 register values 
-	int l = 20;
-	printf("-----------------------------\n");
-	printf("----- FIRST %d REGISTERS ----\n", l);
-	printf("-----------------------------\n");
-	for (int i = 0; i < l*2; i+=2) {
-		printf("%X : %2.2X%2.2X \n", st.pc + i, st.mem[st.pc + i], st.mem[st.pc+i+1]); 
-	}
-	printf("-----------------------------\n");
+//	int l = 20;
+//	printf("-----------------------------\n");
+//	printf("----- FIRST %d REGISTERS ----\n", l);
+//	printf("-----------------------------\n");
+//	for (int i = 0; i < l*2; i+=2) {
+//		printf("%X : %2.2X%2.2X \n", st.pc + i, st.mem[st.pc + i], st.mem[st.pc+i+1]); 
+//	}
+//	printf("-----------------------------\n");
 
 
 

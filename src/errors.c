@@ -32,8 +32,8 @@ void valid_opcode_err(unsigned short op) {
 		(
 			(((op >> 12) & 0xF) == 8) && 
 				(
-					((op & 0xF > 7 ) && ((op & 0xF) < 0xE)) || 
-					((op & 0xF) == 0xF)
+					(((op & 0xF) > 8 ) && ((op & 0xF) < 0xE)) && 
+					((op & 0xF) != 0xF)
 				)
 		) ||
 
@@ -70,7 +70,7 @@ void valid_opcode_err(unsigned short op) {
 					((op & 0xFF) != 0x29) && 
 					((op & 0xFF) != 0x33) && 
 					((op & 0xFF) != 0x55) && 
-					((op & 0xFF) != 0x66)
+					((op & 0xFF) != 0x65)
 				)
 		)
 
