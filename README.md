@@ -53,10 +53,15 @@ The optcode functions are combined to form a function pointer array, `*handler_p
 
 In addition to containing the display functionality, `gamul.c` also contians the functions to subtract one from the sound and delay registers when appropriate. 
 
+Functions in `errors.c/error.h` check common erorrs like making sure optcodes are valid and that filesize does not exceed the 4k memory array. 
+
 __Note:__ Some of the starter code graphics functions were changed to improve runtime and playability.
 
-__Note:__ Input from gamepad is the same as the standard described in the started code;
+__Note:__ Input from gamepad is the same as the standard described in the started code. 
 
 ### Other Files 
-`test.py` is a python script written to help with testing specific optcodes. Running: `$ python test.py` output a binary file, `TEST`, which contains a binary of the hex-string `hx` in the file.   
+`test.py` is a python script written to help with testing specific optcodes. Running: `$ python test.py` output a binary file, `TEST`, which contains a binary of the hex-string `hx` in the file.
+
 `run.sh` is another script to help automate testing and debugging. It runs `./Execute` with the `TEST` binary file and outputs all of the data to `log.txt` to make inspection easier. 
+
+The `obj/` directory contains all of the object files. 
