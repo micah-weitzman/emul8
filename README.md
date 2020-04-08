@@ -1,8 +1,7 @@
-# Emul8
-## Micah Weitzman - ESE350 Spring 2020
-
-### Compilation:
-```
+## Emul8 : Micah Weitzman - ESE350 Spring 2020
+`wmicah at seas dot upenn dot edu`
+### Compilation
+```shell 
 $ make
 ```
 To create an executable ~
