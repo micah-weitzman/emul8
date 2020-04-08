@@ -9,7 +9,7 @@ $ make
 ### Plaing a Game
 To play anyone of the games listed in the `games/` folder, either run the following from the command line: 
 ```shell 
-$./Executable [GAME]
+$ ./Executable [GAME]
 ```
 Or, you could run `$ ./Executable` and input the game when prompted. 
 
