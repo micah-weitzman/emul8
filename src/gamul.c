@@ -7,6 +7,7 @@
 #include "gamul.h"
 #include "errors.h"
 
+#define MILI_SEC 100
 
 // font set for rendering
 const unsigned char fontset[FONTSET_SIZE] = {
@@ -134,8 +135,8 @@ void sound_hanlder(struct state *st) {
  */
 void delay_handler(struct state *st) {
 	if (st->del > 0) {
-		//clock_t start_time = clock(); 
-		//while (clock() <= start_time + MILI_SEC) {;;}
+		clock_t start_time = clock(); 
+		while (clock() <= start_time + MILI_SEC); 
 		st->del--; 
 	}
 }

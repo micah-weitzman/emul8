@@ -171,7 +171,7 @@ int main(int argc, char *argv[])
 	glutInit(&argc, argv);
 
 	// initialize display and window
-	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
+	glutInitDisplayMode(GLUT_RGBA); // | GLUT_DOUBLE);
 	glutInitWindowPosition(100, 100);
 	glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 	glutCreateWindow("ESE 350 - Gamul8r");
@@ -276,6 +276,7 @@ void render()
  */
 void idle()
 {
+	usleep(2500); 
 	// gives the call to redraw the screen
 	glutPostRedisplay();
 }
