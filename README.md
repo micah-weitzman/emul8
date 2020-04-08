@@ -1,5 +1,6 @@
 ## Emul8 : Micah Weitzman - ESE350 Spring 2020
 [`wmicah at seas dot upenn dot edu`](mailto:wmicah@seas.upenn.edu)
+Project's __[`github`]__(https://github.com/mikachoow21/emul8) page. 
 ### Compilation
 Run the following commands to clear logs and old object files, and to create a new `./Executeable` file. 
 ```shell 
